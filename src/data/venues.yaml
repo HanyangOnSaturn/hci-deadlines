@@ -1,0 +1,697 @@
+# HCI Deadline Tracker — Venue Data
+# All deadlines are in AoE (Anywhere on Earth, UTC-12) unless noted
+# last_verified: date when an admin confirmed accuracy against official source
+
+# ============================================================
+# CATEGORY: Flagship HCI Conferences
+# ============================================================
+
+- id: chi-2027
+  name: "ACM Conference on Human Factors in Computing Systems"
+  abbreviation: CHI
+  year: 2027
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: flagship
+  topic_areas: ["HCI", "interaction design", "user studies", "accessibility", "social computing"]
+  official_url: "https://chi2027.acm.org"
+  submission_url: "https://new.precisionconference.com/chi"
+  cfp_url: null
+  abstract_deadline: "2026-09-03T23:59:00"
+  paper_deadline: "2026-09-10T23:59:00"
+  notification_date: "2027-01-15"
+  camera_ready_date: null
+  conference_start: "2027-05-10"
+  conference_end: "2027-05-14"
+  deadline_timezone: "AoE"
+  location: "Pittsburgh, PA, USA"
+  format: "in-person"
+  acceptance_rate: "~25%"
+  notes: |
+    Dates and location confirmed. CFP not yet published.
+    Abstract and paper deadlines are estimated based on CHI 2025/2026 pattern (early September).
+    Revise-and-resubmit model since CHI 2024.
+    Abstract deadline is mandatory.
+    Single-submission policy.
+  source_url: "https://sigchi.org/events/chi-2027/"
+  last_verified: "2026-03-08"
+
+- id: uist-2026
+  name: "ACM Symposium on User Interface Software and Technology"
+  abbreviation: UIST
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: flagship
+  topic_areas: ["interaction techniques", "UI software", "novel systems", "input devices"]
+  official_url: "https://uist.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/uist"
+  cfp_url: "https://uist.acm.org/2026/cfp/"
+  abstract_deadline: "2026-03-24T17:00:00"
+  paper_deadline: "2026-03-31T23:59:00"
+  notification_date: "2026-06-27"
+  camera_ready_date: "2026-07-31"
+  conference_start: "2026-11-02"
+  conference_end: "2026-11-05"
+  deadline_timezone: "AoE"
+  location: "Detroit, MI, USA"
+  format: "in-person"
+  acceptance_rate: "~22%"
+  notes: |
+    Abstract deadline is mandatory (March 24, 17:00 PT).
+    Paper deadline is March 31, 23:59 AoE.
+    Fixed page limit reintroduced for 2026: 10 pages standard, 5 pages short.
+    Two-column format only.
+    Premier venue for novel interaction techniques and systems research.
+  source_url: "https://uist.acm.org/2026/cfp/"
+  last_verified: "2026-03-08"
+
+- id: cscw-2026
+  name: "ACM Conference on Computer-Supported Cooperative Work and Social Computing"
+  abbreviation: CSCW
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: flagship
+  topic_areas: ["social computing", "collaborative work", "online communities", "CSCW"]
+  official_url: "https://cscw.acm.org/2026"
+  submission_url: "https://mc.manuscriptcentral.com/cscw"
+  cfp_url: "https://cscw.acm.org/2026/rolling.html"
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-10-10"
+  conference_end: "2026-10-14"
+  deadline_timezone: "AoE"
+  location: "Salt Lake City, USA"
+  format: "in-person"
+  acceptance_rate: "~22%"
+  notes: |
+    Primary submission cycle (May 2025) has closed.
+    Transitioning to rolling submissions via Manuscript Central (not PCS).
+    Rolling submissions expected to open later in 2026 — exact date TBA.
+    Papers published as journal articles in PACM HCI.
+  source_url: "https://cscw.acm.org/2026/rolling.html"
+  last_verified: "2026-03-08"
+
+- id: ubicomp-imwut-2026-cycle2
+  name: "ACM UbiComp / Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies"
+  abbreviation: "UbiComp/IMWUT"
+  year: 2026
+  venue_type: conference
+  publisher: "ACM"
+  category: flagship
+  topic_areas: ["ubiquitous computing", "mobile computing", "wearable", "IoT", "sensing"]
+  official_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  submission_url: "https://new.precisionconference.com/sigchi"
+  cfp_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  abstract_deadline: null
+  paper_deadline: "2026-05-01T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-10-13"
+  conference_end: "2026-10-15"
+  deadline_timezone: "AoE"
+  location: "Shanghai, China"
+  format: "in-person"
+  acceptance_rate: "~20-25%"
+  notes: |
+    Journal-first model: papers published in IMWUT journal, presented at UbiComp.
+    Rolling deadlines: Feb 1, May 1, Aug 1 (revision only), Nov 1.
+    This entry is for the May 1 cycle.
+  source_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  last_verified: "2025-12-01"
+
+- id: ubicomp-imwut-2026-cycle3
+  name: "ACM UbiComp / IMWUT"
+  abbreviation: "UbiComp/IMWUT"
+  year: 2026
+  venue_type: conference
+  publisher: "ACM"
+  category: flagship
+  topic_areas: ["ubiquitous computing", "mobile computing", "wearable", "IoT", "sensing"]
+  official_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  submission_url: "https://new.precisionconference.com/sigchi"
+  cfp_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  abstract_deadline: null
+  paper_deadline: "2026-11-01T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "AoE"
+  location: "TBD"
+  format: "TBD"
+  acceptance_rate: "~20-25%"
+  notes: |
+    November 1 rolling cycle.
+    Journal-first model: papers published in IMWUT journal.
+  source_url: "https://www.ubicomp.org/ubicomp-iswc-2026/"
+  last_verified: "2025-12-01"
+
+# ============================================================
+# CATEGORY: Design & Creativity
+# ============================================================
+
+- id: dis-2026
+  name: "ACM Conference on Designing Interactive Systems"
+  abbreviation: DIS
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: design
+  topic_areas: ["interaction design", "design research", "design methods", "critical design"]
+  official_url: "https://dis.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/dis"
+  cfp_url: "https://dis.acm.org/2026/papers/"
+  abstract_deadline: "2026-01-09T23:59:00"
+  paper_deadline: "2026-01-19T23:59:00"
+  notification_date: "2026-03-18"
+  camera_ready_date: "2026-04-18"
+  conference_start: "2026-06-13"
+  conference_end: "2026-06-17"
+  deadline_timezone: "AoE"
+  location: "Singapore"
+  format: "in-person"
+  acceptance_rate: "~24%"
+  notes: |
+    Leading design-focused HCI venue.
+    Theme: "Beyond Interaction." In-person only.
+    No page limit (recommended 7,000-8,000 words).
+    Paper deadline passed. Notifications March 18.
+  source_url: "https://dis.acm.org/2026/papers/"
+  last_verified: "2026-03-08"
+
+- id: tei-2026
+  name: "ACM International Conference on Tangible, Embedded, and Embodied Interaction"
+  abbreviation: TEI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: design
+  topic_areas: ["tangible interaction", "physical computing", "embodied interaction", "fabrication"]
+  official_url: "https://tei.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/tei"
+  cfp_url: "https://tei.acm.org/2026/participate/papers/"
+  abstract_deadline: "2025-08-01T23:59:00"
+  paper_deadline: "2025-08-08T23:59:00"
+  notification_date: "2025-10-25"
+  camera_ready_date: "2025-12-01"
+  conference_start: "2026-03-08"
+  conference_end: "2026-03-11"
+  deadline_timezone: "AoE"
+  location: "Chicago, USA"
+  format: "hybrid"
+  acceptance_rate: "~30%"
+  notes: |
+    Focus on tangible and physical computing.
+  source_url: "https://tei.acm.org/2026/participate/papers/"
+  last_verified: "2025-06-01"
+
+- id: cc-2026
+  name: "ACM Creativity and Cognition"
+  abbreviation: "C&C"
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: design
+  topic_areas: ["creativity support tools", "computational creativity", "art and technology"]
+  official_url: "https://cc.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/cc"
+  cfp_url: "https://cc.acm.org/2026/"
+  abstract_deadline: "2026-01-29T23:59:00"
+  paper_deadline: "2026-02-05T23:59:00"
+  notification_date: "2026-03-30"
+  camera_ready_date: "2026-04-27"
+  conference_start: "2026-07-13"
+  conference_end: "2026-07-16"
+  deadline_timezone: "AoE"
+  location: "London, UK"
+  format: "in-person"
+  acceptance_rate: "~27%"
+  notes: |
+    Theme: "Creativity for Change."
+    Venue: Central Saint Martins, University of the Arts London.
+    Paper deadline passed. Posters & Tech Demos due April 16, 2026.
+  source_url: "https://cc.acm.org/2026/"
+  last_verified: "2026-03-08"
+
+# ============================================================
+# CATEGORY: Intelligent Interfaces & Multimodal
+# ============================================================
+
+- id: iui-2026
+  name: "ACM Conference on Intelligent User Interfaces"
+  abbreviation: IUI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: intelligent
+  topic_areas: ["intelligent interfaces", "AI-powered UI", "adaptive systems", "recommender systems"]
+  official_url: "https://iui.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/iui"
+  cfp_url: "https://iui.acm.org/2026/call-for-papers/"
+  abstract_deadline: "2025-10-03T23:59:00"
+  paper_deadline: "2025-10-10T23:59:00"
+  notification_date: "2025-12-19"
+  camera_ready_date: "2026-01-30"
+  conference_start: "2026-03-23"
+  conference_end: "2026-03-26"
+  deadline_timezone: "AoE"
+  location: "Paphos, Cyprus"
+  format: "in-person"
+  acceptance_rate: "~24%"
+  notes: |
+    Focus on AI-powered interface research.
+  source_url: "https://iui.acm.org/2026/call-for-papers/"
+  last_verified: "2025-08-01"
+
+- id: icmi-2026
+  name: "ACM International Conference on Multimodal Interaction"
+  abbreviation: ICMI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: intelligent
+  topic_areas: ["multimodal interaction", "gesture recognition", "speech", "affective computing"]
+  official_url: "https://icmi.acm.org/2026"
+  submission_url: null
+  cfp_url: "https://icmi.acm.org/2026/"
+  abstract_deadline: null
+  paper_deadline: "2026-06-01T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-10-05"
+  conference_end: "2026-10-09"
+  deadline_timezone: "AoE"
+  location: "Napoli, Italy"
+  format: "in-person"
+  acceptance_rate: "~27%"
+  notes: |
+    Theme: "Context and Cultural Awareness for Multimodal Interaction."
+    Exact paper deadline TBD — estimated based on past years.
+  source_url: "https://icmi.acm.org/2026/"
+  last_verified: "2025-12-01"
+
+- id: hai-2026
+  name: "International Conference on Human-Agent Interaction"
+  abbreviation: HAI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM"
+  category: intelligent
+  topic_areas: ["human-agent interaction", "social robots", "virtual agents", "conversational AI"]
+  official_url: "https://hai-conference.net/hai-2026-osaka-japan/"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2026-08-01T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-11-16"
+  conference_end: "2026-11-19"
+  deadline_timezone: "AoE"
+  location: "Osaka, Japan"
+  format: "in-person"
+  acceptance_rate: "~32%"
+  notes: |
+    Exact deadline TBD — estimated based on past years.
+    Focus on human-AI/agent interaction.
+  source_url: "https://hai-conference.net/hai-2026-osaka-japan/"
+  last_verified: "2025-12-01"
+
+# ============================================================
+# CATEGORY: Accessibility & Specific Populations
+# ============================================================
+
+- id: assets-2026
+  name: "ACM SIGACCESS Conference on Computers and Accessibility"
+  abbreviation: ASSETS
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGACCESS"
+  category: accessibility
+  topic_areas: ["accessibility", "assistive technology", "inclusive design", "disability"]
+  official_url: "https://assets.acm.org/2026"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2026-04-16T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-10-26"
+  conference_end: "2026-10-28"
+  deadline_timezone: "AoE"
+  location: "TBD"
+  format: "TBD"
+  acceptance_rate: "~27%"
+  notes: |
+    Premier accessibility research venue.
+    Deadline estimated based on ASSETS 2025 cycle.
+  source_url: "https://assets.acm.org/"
+  last_verified: "2025-06-01"
+
+- id: idc-2026
+  name: "ACM Interaction Design and Children"
+  abbreviation: IDC
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: accessibility
+  topic_areas: ["child-computer interaction", "education technology", "children", "learning"]
+  official_url: "https://idc.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/idc"
+  cfp_url: "https://idc.acm.org/2026/"
+  abstract_deadline: "2026-01-20T23:59:00"
+  paper_deadline: "2026-01-27T23:59:00"
+  notification_date: "2026-03-24"
+  camera_ready_date: "2026-04-21"
+  conference_start: "2026-06-22"
+  conference_end: "2026-06-25"
+  deadline_timezone: "AoE"
+  location: "Brighton, UK"
+  format: "in-person"
+  acceptance_rate: "~28%"
+  notes: |
+    Theme: "Sustainable Futures." Focus on ages 0-18.
+    Paper deadline passed. Work-in-Progress submissions due March 31, 2026.
+  source_url: "https://idc.acm.org/2026/"
+  last_verified: "2026-03-08"
+
+# ============================================================
+# CATEGORY: Mobile, Surfaces & Regional
+# ============================================================
+
+- id: mobilehci-2026
+  name: "ACM International Conference on Mobile Human-Computer Interaction"
+  abbreviation: MobileHCI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: mobile
+  topic_areas: ["mobile interaction", "smartphone", "wearable", "mobile UX"]
+  official_url: "https://mobilehci.acm.org/2026"
+  submission_url: "https://new.precisionconference.com/mobilehci"
+  cfp_url: "https://mobilehci.acm.org/2026/submit/papers.html"
+  abstract_deadline: null
+  paper_deadline: "2026-01-29T23:59:00"
+  notification_date: "2026-04-02"
+  camera_ready_date: "2026-06-18"
+  conference_start: "2026-08-31"
+  conference_end: "2026-09-03"
+  deadline_timezone: "AoE"
+  location: "Swansea, Wales, UK"
+  format: "in-person"
+  acceptance_rate: "~30%"
+  notes: |
+    Theme: "Culture, Creativity, and Croeso."
+    Revise-and-resubmit model. Revised submissions due May 7, 2026.
+    Published as journal articles in PACM HCI.
+    Paper deadline passed.
+  source_url: "https://mobilehci.acm.org/2026/submit/papers.html"
+  last_verified: "2025-11-01"
+
+- id: iss-2026
+  name: "ACM Interactive Surfaces and Spaces"
+  abbreviation: ISS
+  year: 2026
+  venue_type: conference
+  publisher: "ACM SIGCHI"
+  category: mobile
+  topic_areas: ["interactive surfaces", "spatial computing", "large displays", "tabletops"]
+  official_url: "https://iss.acm.org/2026"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2026-07-01T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-11-23"
+  conference_end: "2026-11-26"
+  deadline_timezone: "AoE"
+  location: "Turin, Italy"
+  format: "in-person"
+  acceptance_rate: "~28%"
+  notes: |
+    Formerly ITS (Interactive Tabletops and Surfaces).
+    Transitioning to PACM HCI special issue model.
+    Deadline estimated — exact dates TBA.
+  source_url: "https://iss.acm.org/"
+  last_verified: "2025-12-01"
+
+- id: nordichi-2026
+  name: "Nordic Conference on Human-Computer Interaction"
+  abbreviation: NordiCHI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM"
+  category: mobile
+  topic_areas: ["HCI", "Nordic design", "participatory design", "sustainability"]
+  official_url: "https://sites.uwasa.fi/nordichi2026/"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2026-05-15T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-10-03"
+  conference_end: "2026-10-07"
+  deadline_timezone: "AoE"
+  location: "Vaasa, Finland"
+  format: "in-person"
+  acceptance_rate: "~28%"
+  notes: |
+    Biennial conference. Theme: "Pulse — exploring the energy that drives us."
+    Deadline estimated — exact dates TBA.
+  source_url: "https://sites.uwasa.fi/nordichi2026/"
+  last_verified: "2025-12-01"
+
+- id: ozchi-2026
+  name: "Australasian Conference on Human-Computer Interaction"
+  abbreviation: OzCHI
+  year: 2026
+  venue_type: conference
+  publisher: "ACM"
+  category: mobile
+  topic_areas: ["HCI", "user experience", "design", "Australasian"]
+  official_url: "https://www.ozchi.org/2026"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2026-07-15T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2026-11-30"
+  conference_end: "2026-12-02"
+  deadline_timezone: "AoE"
+  location: "Adelaide, Australia"
+  format: "in-person"
+  acceptance_rate: "~35%"
+  notes: |
+    Regional but internationally attended.
+    Deadline estimated based on past years.
+  source_url: "https://www.ozchi.org/"
+  last_verified: "2025-12-01"
+
+- id: interact-2027
+  name: "IFIP TC13 International Conference on Human-Computer Interaction"
+  abbreviation: INTERACT
+  year: 2027
+  venue_type: conference
+  publisher: "IFIP / Springer"
+  category: mobile
+  topic_areas: ["HCI", "interaction design", "usability", "user experience"]
+  official_url: "https://interact2027.org"
+  submission_url: null
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: "2027-02-17T23:59:00"
+  notification_date: null
+  camera_ready_date: null
+  conference_start: "2027-09-01"
+  conference_end: "2027-09-05"
+  deadline_timezone: "AoE"
+  location: "TBD"
+  format: "TBD"
+  acceptance_rate: "~28%"
+  notes: |
+    Biennial conference (next after INTERACT 2025).
+    One of the longest-running HCI conferences (since 1984).
+    Published in Springer LNCS.
+    Dates are estimates only.
+  source_url: "https://interact2025.org/"
+  last_verified: "2025-12-01"
+
+# ============================================================
+# CATEGORY: Visualization (Adjacent)
+# ============================================================
+
+- id: ieeevis-2026
+  name: "IEEE Visualization Conference"
+  abbreviation: IEEE VIS
+  year: 2026
+  venue_type: conference
+  publisher: "IEEE"
+  category: visualization
+  topic_areas: ["information visualization", "visual analytics", "scientific visualization"]
+  official_url: "https://ieeevis.org/year/2026/"
+  submission_url: "https://new.precisionconference.com/vgtc"
+  cfp_url: "https://ieeevis.org/year/2026/info/call-participation/call-for-participation/"
+  abstract_deadline: "2026-03-21T23:59:00"
+  paper_deadline: "2026-03-31T23:59:00"
+  notification_date: "2026-07-01"
+  camera_ready_date: "2026-08-15"
+  conference_start: "2026-10-18"
+  conference_end: "2026-10-23"
+  deadline_timezone: "AoE"
+  location: "TBD"
+  format: "in-person"
+  acceptance_rate: "~25%"
+  notes: |
+    Unified from InfoVis, VAST, and SciVis in 2021.
+    Many HCI researchers publish visualization work here.
+    Abstract deadline is mandatory.
+  source_url: "https://ieeevis.org/year/2026/info/call-participation/call-for-participation/"
+  last_verified: "2026-01-15"
+
+# ============================================================
+# CATEGORY: Journals (Rolling Submissions)
+# ============================================================
+
+- id: tochi
+  name: "ACM Transactions on Computer-Human Interaction"
+  abbreviation: TOCHI
+  year: 2026
+  venue_type: journal
+  publisher: "ACM"
+  category: journal
+  topic_areas: ["HCI", "interaction design", "user studies", "systems"]
+  official_url: "https://dl.acm.org/journal/tochi"
+  submission_url: "https://mc.manuscriptcentral.com/tochi"
+  cfp_url: "https://dl.acm.org/journal/tochi/author-guidelines"
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "N/A"
+  location: null
+  format: null
+  acceptance_rate: null
+  notes: |
+    ACM's flagship HCI journal. Rolling submissions.
+    ACM is fully Open Access as of Jan 2026.
+    No simultaneous submissions allowed.
+  source_url: "https://dl.acm.org/journal/tochi/author-guidelines"
+  last_verified: "2026-01-01"
+
+- id: ijhcs
+  name: "International Journal of Human-Computer Studies"
+  abbreviation: IJHCS
+  year: 2026
+  venue_type: journal
+  publisher: "Elsevier"
+  category: journal
+  topic_areas: ["HCI", "psychology", "AI", "design", "engineering"]
+  official_url: "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies"
+  submission_url: "https://www.editorialmanager.com/ijhcs/"
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "N/A"
+  location: null
+  format: null
+  acceptance_rate: null
+  notes: |
+    Highly interdisciplinary. Impact Factor 5.3 (2024).
+    Rolling submissions.
+  source_url: "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies"
+  last_verified: "2026-01-01"
+
+- id: hci-journal
+  name: "Human-Computer Interaction"
+  abbreviation: HCI Journal
+  year: 2026
+  venue_type: journal
+  publisher: "Taylor & Francis"
+  category: journal
+  topic_areas: ["HCI", "cognitive science", "human factors"]
+  official_url: "https://www.tandfonline.com/journals/hhci20"
+  submission_url: "https://www.tandfonline.com/journals/hhci20"
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "N/A"
+  location: null
+  format: null
+  acceptance_rate: null
+  notes: |
+    One of the original HCI journals.
+    Rolling submissions. APA citation style.
+  source_url: "https://www.tandfonline.com/journals/hhci20"
+  last_verified: "2026-01-01"
+
+- id: bit
+  name: "Behaviour & Information Technology"
+  abbreviation: BIT
+  year: 2026
+  venue_type: journal
+  publisher: "Taylor & Francis"
+  category: journal
+  topic_areas: ["behavioral technology", "user behavior", "information systems", "UX"]
+  official_url: "https://www.tandfonline.com/journals/tbit20"
+  submission_url: "https://www.tandfonline.com/journals/tbit20"
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "N/A"
+  location: null
+  format: null
+  acceptance_rate: null
+  notes: |
+    Focus on behavioral and psychological aspects of technology use.
+    Rolling submissions.
+  source_url: "https://www.tandfonline.com/journals/tbit20"
+  last_verified: "2026-01-01"
+
+- id: cscw-journal
+  name: "Computer Supported Cooperative Work: The Journal of Collaborative Computing"
+  abbreviation: CSCW Journal
+  year: 2026
+  venue_type: journal
+  publisher: "Springer"
+  category: journal
+  topic_areas: ["CSCW", "collaborative computing", "groupware", "social computing"]
+  official_url: "https://link.springer.com/journal/10606"
+  submission_url: "https://link.springer.com/journal/10606"
+  cfp_url: null
+  abstract_deadline: null
+  paper_deadline: null
+  notification_date: null
+  camera_ready_date: null
+  conference_start: null
+  conference_end: null
+  deadline_timezone: "N/A"
+  location: null
+  format: null
+  acceptance_rate: null
+  notes: |
+    Interdisciplinary CSCW research.
+    Median 17 days to first decision.
+    Rolling submissions.
+  source_url: "https://link.springer.com/journal/10606"
+  last_verified: "2026-01-01"
